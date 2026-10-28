@@ -4,5 +4,9 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse("<h1>Привет из Django 6.1!</h1>")
 
+OWNER = "Mr. Robot"
 
+def experiment(request):
+    context = {"owner": 'Маня Понич'}
+    return render(request, "blog/experiment.html", context=context)
 

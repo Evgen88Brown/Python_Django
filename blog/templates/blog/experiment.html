@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Эксперементальная страница</title>
+    <style> 
+        .one{
+            color:red;
+        }
+        .two {
+            color: blue;
+        }
+        .three {
+            color: green;
+        }
+    
+    </style>
 </head>
 <body>
-    <p>Владелец этого сайта: {{owner}}</p>
+    {% if is_published %}
+    <p>Пост опубликован</p>
+    
+    <div class="post">
+        <h3>{{title}} </h3>
+        <p>{{text}}</p>
+        <p
+        {% if rating == 1 %}class="one"
+        {% elif rating == 2 %}class="two"
+        {% else %}class="three"
+        {% endif %}> Райтинг:{{rating}}
+            
+        </p>
+        <p>{{views}} </p>
+        <p>{{hash_tags}} </p>
+        <p>{{hash_tags.0}} </p>
+        <p>{{hash_tags|join:" "}} </p>
+        <p>{{authors.main}} </p>
+        <p>{{authors.secondary}} </p>
+        <p>{{apple}} </p>
+
+    
+    </div>    
+    {{post.title}}
+    {{post.test}}
+    {% else %}
+    <p>Пост не опубликован</p>
+    {% endif %}
+    
 </body>
 </html>

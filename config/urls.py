@@ -25,7 +25,7 @@ urlpatterns = [
     path("posts/", views.post_list, name="post_list"),
     # Два маршрута - один останеться
     path("post/<int:post_id>/", views.post_detail, name="post_detail"),
-    # path("post/by-slug/<slug:post_slug>/", views.post_detail_by_slug, name="post_detail_by_slug"),
+    path("post/by-slug/<slug:post_slug>/", views.post_detail, name="post_detail_by_slug"),
 ]
 
 """

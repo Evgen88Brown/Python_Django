@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="{% static 'blog/css/blog.css' %}">
+</head>
+<body>
+    <main class="container">
+    <nav class="nav"><a href="{% url 'post_list' %}">Публикации</a></nav>
+    <h1>{{ page_title }}</h1>
+    <ul class="tags">
+        {% for category in categories %}<li>{{ category.name }}</li>{% endfor %}
+    </ul>
+    <section id="posts" class="post-list">
+        {% for post in posts %}
+            <article class="post-card{% if post.rating == 3 %} post-card--featured{% endif %}">
+                {% if post.image %}<img src="{% static 'blog/images/' %}{{ post.image }}" alt="{{ post.title }}">{% else %}<p class="muted">Без иллюстрации</p>{% endif %}
+                <h2>{{ forloop.counter }}. {{ post.title }}</h2>
+                <p class="muted">{{ post.author }} · {{ post.category.name }}</p>
+                {% if post.description %}<p>{{ post.description }}</p>{% else %}<p class="muted">Описание пока не добавлено.</p>{% endif %}
+                <p>{% if post.rating == 3 %}Высокий рейтинг{% elif post.rating == 2 %}Есть интерес{% else %}Новая запись{% endif %}</p>
+            </article>
+        {% empty %}
+            <p>Публикаций пока нет.</p>
+        {% endfor %}
+    </section>
+</main>
+</body>
+</html>

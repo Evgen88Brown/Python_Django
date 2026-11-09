@@ -26,6 +26,10 @@ urlpatterns = [
     # Два маршрута - один останеться
     path("post/<int:post_id>/", views.post_detail, name="post_detail"),
     path("post/by-slug/<slug:post_slug>/", views.post_detail, name="post_detail_by_slug"),
+
+    # Эксперементы с чачсами
+    path("clock/", views.clock_views, name="clock"),
+    path("clock/fragment/", views.clock_fragment, name="clock_fragment")
 ]
 
 """

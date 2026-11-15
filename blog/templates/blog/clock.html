@@ -4,10 +4,13 @@
 {% block content %}
     <h1>Виджет часов</h1>
     <div class="toolbar">
-        <button class="button" type="button" hx-get="{% url 'clock_fragment' %}" hx-target="#clock" hx-swap="innerHTML">
-            Обновить время
-
-        </button>
+        <button type="button"
+            class="button"
+            hx-get="{% url 'clock_fragment' %}"
+            hx-target="#clock"
+            hx-swap="innerHTML"
+            hx-trigger="every 1s"
+            >Обновить время</button>
     </div>
     <div id="clock" class="clock">
         {% partialdef clock inline %}

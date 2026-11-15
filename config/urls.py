@@ -29,7 +29,10 @@ urlpatterns = [
 
     # Эксперементы с чачсами
     path("clock/", views.clock_views, name="clock"),
-    path("clock/fragment/", views.clock_fragment, name="clock_fragment")
+    path("clock/fragment/", views.clock_fragment, name="clock_fragment"),
+
+    # Маршрут для обновления ОДНОЙ карточки через AJAX HTMX
+    path("posts/card/<slug:post_slug>/", views.post_card_fragment, name="post_card_fragment"),
 ]
 
 """

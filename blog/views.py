@@ -11,11 +11,22 @@ def index(request):
     return HttpResponse("<h1>Привет из Django 6.1!</h1>")
 
 def post_list(request):
+    q = request.GET.get("q", "")
+    cat = request.GET.get("cat", "").strip()
     posts = [post for post in POSTS if post['is_published']]
+
+    if cat:
+        posts = [post for post in posts if post["category"]["name"] == cat]
+
+    if q:
+        posts = [post for post in posts if q.lower() in post["title"].lower()]    
+
     context = {
         "posts": posts,
         "categories": CATEGORIES,
-        "page_title": "Межпространственный блог"
+        "page_title": "Межпространственный блог",
+        "q": q,
+        "cat": cat,
     }
     return render(request, "blog/post_list.html", context)
 

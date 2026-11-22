@@ -154,3 +154,12 @@ a {
 .search-form .button {
   margin-left: auto;   /* кнопка «Найти» прижимается вправо, «Сбросить» рядом */
 }
+/* Блюр выдачи, пока HTMX обновляет блок */
+#results {
+  transition: filter 0.2s ease, opacity 0.2s ease;
+}
+#results.htmx-request {
+  filter: blur(4px);
+  opacity: 0.6;
+  pointer-events: none;
+}

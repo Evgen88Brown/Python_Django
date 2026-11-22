@@ -1,7 +1,7 @@
 {
   "type": "excalidraw",
   "version": 2,
-  "source": "https://excalidraw.com",
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
   "elements": [
     {
       "id": "eyebrow",
@@ -83,7 +83,7 @@
       "x": 64,
       "y": 127,
       "width": 527,
-      "height": 30.0,
+      "height": 30,
       "angle": 0,
       "strokeColor": "#54665E",
       "backgroundColor": "transparent",
@@ -160,7 +160,7 @@
       "x": 83,
       "y": 241,
       "width": 150,
-      "height": 45.0,
+      "height": 45,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "transparent",
@@ -200,7 +200,7 @@
       "x": 88,
       "y": 246,
       "width": 140,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#20342C",
       "backgroundColor": "transparent",
@@ -318,7 +318,7 @@
       "x": 88,
       "y": 323,
       "width": 344,
-      "height": 66.0,
+      "height": 66,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "#FFFFFF",
@@ -350,7 +350,7 @@
       "x": 93,
       "y": 326,
       "width": 199,
-      "height": 60.0,
+      "height": 60,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "transparent",
@@ -390,7 +390,7 @@
       "x": 98,
       "y": 331,
       "width": 189,
-      "height": 50.0,
+      "height": 50,
       "angle": 0,
       "strokeColor": "#20342C",
       "backgroundColor": "transparent",
@@ -526,8 +526,8 @@
         "type": 3
       },
       "seed": 1507095149,
-      "version": 1,
-      "versionNonce": 1507095149,
+      "version": 70,
+      "versionNonce": 1610670865,
       "isDeleted": false,
       "boundElements": [
         {
@@ -539,7 +539,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1793204217086,
+      "updated": 1795361393032,
       "link": null,
       "locked": false,
       "customData": {
@@ -552,7 +552,7 @@
       "x": 547,
       "y": 241,
       "width": 253,
-      "height": 45.0,
+      "height": 45,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "transparent",
@@ -570,8 +570,8 @@
         "type": 3
       },
       "seed": 137177559,
-      "version": 1,
-      "versionNonce": 137177559,
+      "version": 70,
+      "versionNonce": 1195332223,
       "isDeleted": false,
       "boundElements": [
         {
@@ -579,7 +579,7 @@
           "type": "text"
         }
       ],
-      "updated": 1793204217086,
+      "updated": 1795361393032,
       "link": null,
       "locked": false,
       "customData": {
@@ -592,7 +592,7 @@
       "x": 552,
       "y": 246,
       "width": 243,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#234D83",
       "backgroundColor": "transparent",
@@ -608,11 +608,11 @@
       "index": "a015",
       "roundness": null,
       "seed": 1899523535,
-      "version": 1,
-      "versionNonce": 1899523535,
+      "version": 70,
+      "versionNonce": 1291081969,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1793204217086,
+      "updated": 1795361393032,
       "link": null,
       "locked": false,
       "text": "2. Маршрутизация",
@@ -631,7 +631,7 @@
       "x": 547,
       "y": 293,
       "width": 94,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "transparent",
@@ -649,8 +649,8 @@
         "type": 3
       },
       "seed": 714386758,
-      "version": 1,
-      "versionNonce": 714386758,
+      "version": 70,
+      "versionNonce": 1842260639,
       "isDeleted": false,
       "boundElements": [
         {
@@ -658,7 +658,7 @@
           "type": "text"
         }
       ],
-      "updated": 1793204217086,
+      "updated": 1795361393032,
       "link": null,
       "locked": false,
       "customData": {
@@ -671,7 +671,7 @@
       "x": 552,
       "y": 298,
       "width": 84,
-      "height": 25.0,
+      "height": 25,
       "angle": 0,
       "strokeColor": "#234D83",
       "backgroundColor": "transparent",
@@ -687,11 +687,11 @@
       "index": "a017",
       "roundness": null,
       "seed": 472283412,
-      "version": 1,
-      "versionNonce": 472283412,
+      "version": 70,
+      "versionNonce": 465441489,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1793204217086,
+      "updated": 1795361393032,
       "link": null,
       "locked": false,
       "text": "urls.py",
@@ -710,7 +710,7 @@
       "x": 552,
       "y": 333,
       "width": 344,
-      "height": 41.0,
+      "height": 41,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "#FFFFFF",
@@ -728,11 +728,11 @@
         "type": 3
       },
       "seed": 601273255,
-      "version": 1,
-      "versionNonce": 601273255,
+      "version": 70,
+      "versionNonce": 352190143,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1793204217086,
+      "updated": 1795361393032,
       "link": null,
       "locked": false
     },
@@ -742,7 +742,7 @@
       "x": 557,
       "y": 336,
       "width": 258,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "transparent",
@@ -760,8 +760,8 @@
         "type": 3
       },
       "seed": 1666300611,
-      "version": 1,
-      "versionNonce": 1666300611,
+      "version": 70,
+      "versionNonce": 1089835185,
       "isDeleted": false,
       "boundElements": [
         {
@@ -769,7 +769,7 @@
           "type": "text"
         }
       ],
-      "updated": 1793204217086,
+      "updated": 1795361393032,
       "link": null,
       "locked": false,
       "customData": {
@@ -782,7 +782,7 @@
       "x": 562,
       "y": 341,
       "width": 248,
-      "height": 25.0,
+      "height": 25,
       "angle": 0,
       "strokeColor": "#20342C",
       "backgroundColor": "transparent",
@@ -798,11 +798,11 @@
       "index": "a020",
       "roundness": null,
       "seed": 1045957462,
-      "version": 1,
-      "versionNonce": 1045957462,
+      "version": 70,
+      "versionNonce": 527290079,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1793204217086,
+      "updated": 1795361393032,
       "link": null,
       "locked": false,
       "text": "path(\"\", views.index)",
@@ -839,8 +839,8 @@
         "type": 3
       },
       "seed": 307354782,
-      "version": 1,
-      "versionNonce": 307354782,
+      "version": 70,
+      "versionNonce": 843207313,
       "isDeleted": false,
       "boundElements": [
         {
@@ -848,7 +848,7 @@
           "type": "text"
         }
       ],
-      "updated": 1793204217086,
+      "updated": 1795361393032,
       "link": null,
       "locked": false,
       "customData": {
@@ -877,11 +877,11 @@
       "index": "a022",
       "roundness": null,
       "seed": 1107963401,
-      "version": 1,
-      "versionNonce": 1107963401,
+      "version": 70,
+      "versionNonce": 1202625279,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1793204217086,
+      "updated": 1795361393032,
       "link": null,
       "locked": false,
       "text": "Ищет подходящий маршрут.\nПустой путь \"\" — главная.\nВызывает views.index.",
@@ -952,7 +952,7 @@
       "x": 1011,
       "y": 241,
       "width": 295,
-      "height": 45.0,
+      "height": 45,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "transparent",
@@ -992,7 +992,7 @@
       "x": 1016,
       "y": 246,
       "width": 285,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "#245E43",
       "backgroundColor": "transparent",
@@ -1031,7 +1031,7 @@
       "x": 1011,
       "y": 293,
       "width": 105,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "transparent",
@@ -1071,7 +1071,7 @@
       "x": 1016,
       "y": 298,
       "width": 95,
-      "height": 25.0,
+      "height": 25,
       "angle": 0,
       "strokeColor": "#245E43",
       "backgroundColor": "transparent",
@@ -1110,7 +1110,7 @@
       "x": 1016,
       "y": 333,
       "width": 344,
-      "height": 41.0,
+      "height": 41,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "#FFFFFF",
@@ -1142,7 +1142,7 @@
       "x": 1021,
       "y": 336,
       "width": 176,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "transparent",
@@ -1182,7 +1182,7 @@
       "x": 1026,
       "y": 341,
       "width": 166,
-      "height": 25.0,
+      "height": 25,
       "angle": 0,
       "strokeColor": "#20342C",
       "backgroundColor": "transparent",
@@ -1419,7 +1419,7 @@
       "x": 1480,
       "y": 333,
       "width": 344,
-      "height": 41.0,
+      "height": 41,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "#FFFFFF",
@@ -1451,7 +1451,7 @@
       "x": 1485,
       "y": 336,
       "width": 117,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "transparent",
@@ -1491,7 +1491,7 @@
       "x": 1490,
       "y": 341,
       "width": 107,
-      "height": 25.0,
+      "height": 25,
       "angle": 0,
       "strokeColor": "#20342C",
       "backgroundColor": "transparent",
@@ -1732,7 +1732,7 @@
       "x": 1011,
       "y": 729,
       "width": 117,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "transparent",
@@ -1772,7 +1772,7 @@
       "x": 1016,
       "y": 734,
       "width": 107,
-      "height": 25.0,
+      "height": 25,
       "angle": 0,
       "strokeColor": "#4D596C",
       "backgroundColor": "transparent",
@@ -1811,7 +1811,7 @@
       "x": 1016,
       "y": 766,
       "width": 344,
-      "height": 41.0,
+      "height": 41,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "#FFFFFF",
@@ -1843,7 +1843,7 @@
       "x": 1021,
       "y": 769,
       "width": 117,
-      "height": 35.0,
+      "height": 35,
       "angle": 0,
       "strokeColor": "transparent",
       "backgroundColor": "transparent",
@@ -1883,7 +1883,7 @@
       "x": 1026,
       "y": 774,
       "width": 107,
-      "height": 25.0,
+      "height": 25,
       "angle": 0,
       "strokeColor": "#20342C",
       "backgroundColor": "transparent",
@@ -2035,10 +2035,10 @@
     {
       "id": "ZGgSbriABGUMYNfALoJsC",
       "type": "arrow",
-      "x": 463,
-      "y": 375.0,
-      "width": 58,
-      "height": 0.0,
+      "x": 461.4976437293773,
+      "y": 375,
+      "width": 61.00471254124534,
+      "height": 0,
       "angle": 0,
       "strokeColor": "#2B624C",
       "backgroundColor": "transparent",
@@ -2052,21 +2052,21 @@
       "index": "a052",
       "roundness": null,
       "seed": 674569085,
-      "version": 1,
-      "versionNonce": 674569085,
+      "version": 71,
+      "versionNonce": 1225368145,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1793204217086,
+      "updated": 1795361393034,
       "link": null,
       "locked": false,
       "points": [
         [
           0,
-          0.0
+          0
         ],
         [
-          58,
-          0.0
+          61.00471254124534,
+          0
         ]
       ],
       "lastCommittedPoint": null,
@@ -2092,10 +2092,10 @@
     {
       "id": "ydvZDCm2HUIWJ0d6eaWRg",
       "type": "arrow",
-      "x": 927,
-      "y": 375.0,
-      "width": 58,
-      "height": 0.0,
+      "x": 925.4976437293774,
+      "y": 375,
+      "width": 61.00471254124511,
+      "height": 0,
       "angle": 0,
       "strokeColor": "#2B624C",
       "backgroundColor": "transparent",
@@ -2109,21 +2109,21 @@
       "index": "a053",
       "roundness": null,
       "seed": 856764473,
-      "version": 1,
-      "versionNonce": 856764473,
+      "version": 71,
+      "versionNonce": 1603610431,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1793204217086,
+      "updated": 1795361393034,
       "link": null,
       "locked": false,
       "points": [
         [
           0,
-          0.0
+          0
         ],
         [
-          58,
-          0.0
+          61.00471254124511,
+          0
         ]
       ],
       "lastCommittedPoint": null,
@@ -2150,9 +2150,9 @@
       "id": "x9PLcoZcnKiQlAw6uEmiY",
       "type": "arrow",
       "x": 1391,
-      "y": 375.0,
+      "y": 375,
       "width": 58,
-      "height": 0.0,
+      "height": 0,
       "angle": 0,
       "strokeColor": "#2B624C",
       "backgroundColor": "transparent",
@@ -2176,11 +2176,11 @@
       "points": [
         [
           0,
-          0.0
+          0
         ],
         [
           58,
-          0.0
+          0
         ]
       ],
       "lastCommittedPoint": null,
@@ -2323,7 +2323,7 @@
       "x": 1021,
       "y": 573,
       "width": 65,
-      "height": 45.0,
+      "height": 45,
       "angle": 0,
       "strokeColor": "#4D596C",
       "backgroundColor": "transparent",
@@ -2504,11 +2504,10 @@
     }
   ],
   "appState": {
-    "viewBackgroundColor": "#FFFFFF",
     "gridSize": 20,
     "gridStep": 5,
     "gridModeEnabled": false,
-    "exportWithDarkMode": false
+    "viewBackgroundColor": "#FFFFFF"
   },
   "files": {}
 }

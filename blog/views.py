@@ -1,10 +1,11 @@
 from django.http import Http404
-
+from django.core.paginator import Paginator
 from django.shortcuts import render
 from django.http import HttpResponse
 from dataclasses import dataclass
 from .data import CATEGORIES, POSTS
 from django.utils import timezone
+
 
 
 def index(request):
@@ -19,10 +20,27 @@ def post_list(request):
         posts = [post for post in posts if post["category"]["name"] == cat]
 
     if q:
-        posts = [post for post in posts if q.lower() in post["title"].lower()]    
+        posts = [post for post in posts if q.lower() in post["title"].lower()]
+
+
+    # Получаем номер страницы из Get- параметров
+    page_number = request.GET.get("page", 1)
+
+    # Ппагинация постов по 5 шт па строницу
+    paginator = Paginator(posts, 5)
+
+    
+
+    # Получаем обьект строницы с постами
+    page_obj = paginator.get_page(page_number)
+
+
+
+
 
     context = {
-        "posts": posts,
+        "posts": page_obj.object_list,
+        "page_obj": page_obj,
         "categories": CATEGORIES,
         "page_title": "Межпространственный блог",
         "q": q,

@@ -37,6 +37,7 @@ urlpatterns = [
     
     
     # path("search/", views.search_experiment, name="post_search"),
+    path("lab/filters/", views.lab_filters, name="lab_filters"),
 ]
 
 """

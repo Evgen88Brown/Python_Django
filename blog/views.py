@@ -106,3 +106,36 @@ def search_experiment(request):
     }
     return render(request, "blog/search_experiment.html", context)
 
+# --- Эксперимент для занятия о фильтрах и тегах шаблонов --------------------
+# Словарь LAB намеренно не связан с базой и с data.py: страница /lab/filters/
+# показывает только шаблонный язык. Значения подобраны так, чтобы каждый фильтр
+# светился по-разному: пустая строка против None, один против пяти, три строки
+# против одной.
+
+from datetime import datetime
+LAB = {
+    "title": "Дом 12, масло & мёд и ещё пара лишних слов",
+    "subtitle": "",  # пустая строка: default сработает, default_if_none — нет
+    "annotation": None,  # именно None: сработают оба фильтра
+    "views_one": 1,  # «1 просмотр» — единственная форма
+    "views_many": 5,  # «5 просмотров» — форма многих
+    "views_21": 21,  # «21 просмотр» — ловушка: 21 ведёт себя как 1
+    "tags": ["django", "шаблоны", "python"],
+    "body": "Первая строка.\nВторая.\n\nПосле пустой.",
+    "is_published": True,
+    "is_draft": False,
+    "published_at": datetime(2026, 11, 18, 19, 0),
+    "search": "дом 12 & масло",
+    "counter": 7,
+    "rating_empty": "",
+    "posts_mini": [
+        {"name": "Альфа", "rating": 3},
+        {"name": "Бета", "rating": 5},
+        {"name": "Гамма", "rating": 1},
+        {"name": "Дельта", "rating": None},
+        {"name": "Эпсилон", "rating": "Чебурек"},
+    ],
+}
+
+def lab_filters(request):
+    return render(request, "blog/lab_filters.html", {"lab": LAB})

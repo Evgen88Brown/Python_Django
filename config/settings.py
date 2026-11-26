@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # После служебных но до наших, подключаем Django HTMX
     'django_htmx',
+    'django_extensions',
     # ВАЖНО! Авторские Django APP регестрируеться после служебных
     'blog',
 ]

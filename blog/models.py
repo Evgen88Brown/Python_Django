@@ -9,8 +9,8 @@ class Category(models.Model):
     description = models.TextField(verbose_name="Описание", blank=True)
 
     class Meta:
-        verbose_name = "Категория"
-        verbose_name_plural = "Публикации"
+        verbose_name = "Категории"
+        verbose_name_plural = "Категории"
         ordering = ["id"]
 
     def __str__(self):
@@ -31,8 +31,8 @@ class Post(models.Model):
     )
 
     class Meta:
-            verbose_name = "Категория"
-            verbose_name_plural = "Категория"
+            verbose_name = "Публикации"
+            verbose_name_plural = "Публикации"
             ordering = ["id"]
     
     def __str__(self):
